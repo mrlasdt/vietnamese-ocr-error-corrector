@@ -87,13 +87,13 @@ The corrector call method accept two arguments: the text to correct, and the cor
 
 ## Appendix
 
-[Survey of Post-OCR Processing Approaches, University of La Rochelle](https://dl.acm.org/doi/10.1145/3453476) statiscally shown that the text errors from human typing and ocr output have different distributions. Briefly, human is more likely to produce shorter, non-existen, and space-missing words while OCR output tend to be longer, more real-world, and space-reduntant.
+[Deep Statistical Analysis of OCR Errors for Effective Post-OCR Processing](https://www.researchgate.net/publication/335074056_Deep_Statistical_Analysis_of_OCR_Errors_for_Effective_Post-OCR_Processing) statiscally shown that the text errors from human typing and ocr output have different distributions. Briefly, human is more likely to produce shorter, non-existen, and space-missing words while OCR output tend to be longer, more real-world, and space-reduntant.
 
 | OCR | Human |
 | :---: | :---: |
 | 59.21% real-word error​​ (Hoàng → Hoàn)​ | 67.5 % non-word error​​ (Hoàng → Hoàgn) |
 | 2.36x higher incorrect split error​​ (Hoàng → Ho àng)​​  | 6.5x higher run-on error​​ (Hoàng hôn → Hoànghôn)​​  |
-| 42.1% short-word error​​  | 67.5% short-word error​​  |
+| 42.1% short-word error​​  | 63% short-word error​​  |
 
 The distribution of error acts as the input and is essential to the performance of the Ocr Correction model, hence, demanding a statiscal study on Vietnamese OCR output error. 
 
