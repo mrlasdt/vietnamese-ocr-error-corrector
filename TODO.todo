@@ -1,0 +1,21 @@
+Data for ocr correction
+synthetic...
+    rule base correction
+
+    pertubate rules:
+       - mất dấu
+       - sai dấu
+       - 
+
+
+### real ocr putput
+source
+data_stat.csv:
+    Backup/1.Hand_writing
+    Backup/idcard_dl_fmlb
+
+    wiki (phải tự crawl thêm trên wiki)
+    KIE
+
+    
+problem: balancing error and non-error data

@@ -1,0 +1,9 @@
+#torch==1.8.1
+torch
+numpy
+lmdb
+tqdm
+unicodedata2
+nltk
+#jupyter-notebook
+unidecode
